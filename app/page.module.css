@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #f0f2f5;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  min-width: 320px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+  color: #111827;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #6b7280;
+  margin: 0 0 20px 0;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 9999px;
+  object-fit: cover;
+  margin-bottom: 8px;
+  border: 3px solid #e5e7eb;
+}
+
+.button {
+  background: #1f2937;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 14px 22px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  min-width: 220px;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  background: #111827;
+}
+
+.buttonOutline {
+  background: white;
+  color: #1f2937;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 14px 22px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  min-width: 220px;
+  transition: 0.2s ease;
+}
+
+.buttonOutline:hover {
+  background: #f9fafb;
+}
